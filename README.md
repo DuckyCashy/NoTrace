@@ -196,7 +196,7 @@ Vanilla keys can retain their normal behavior depending on the selected configur
 
 ---
 
-Meteor Compatibility
+## Meteor Compatibility
 
 Some versions of Meteor Client implement their own key-resolution protection.
 
@@ -208,7 +208,7 @@ NoTrace includes compatibility handling intended to prevent this behavior from u
 
 ---
 
-Mod Whitelist
+## Mod Whitelist
 
 Some mods legitimately require server communication.
 
@@ -227,7 +227,7 @@ CUSTOM mode allows the player to select individual mods manually.
 
 ---
 
-Chat Signing Control
+## Chat Signing Control
 
 Minecraft chat messages can contain cryptographic signatures.
 
@@ -243,7 +243,7 @@ Disabling signatures may prevent communication with servers that require secure 
 
 ---
 
-Telemetry Blocking
+## Telemetry Blocking
 
 Minecraft can send telemetry data to Mojang.
 
@@ -253,7 +253,7 @@ This does not disable normal gameplay functionality.
 
 ---
 
-Alerts
+## Alerts
 
 NoTrace can notify the player when supported fingerprinting behavior is detected.
 
@@ -306,7 +306,7 @@ Clone the repository
 ```
 git clone https://github.com/duckycashy/NoTrace.git
 cd NoTrace
-
+```
 ## Build
 
 Windows:
