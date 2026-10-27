@@ -307,22 +307,21 @@ Clone the repository
 git clone https://github.com/duckycashy/NoTrace.git
 cd NoTrace
 
-Build
+## Build
 
 Windows:
-
+```
 .\gradlew.bat build
-
+```
 Linux/macOS:
-
+```
 ./gradlew build
 ```
-
 The compiled JAR will be available in:
 
 build/libs/
 
-Development
+## Development
 
 NoTrace is developed for Minecraft 26.3 using Fabric.
 
@@ -330,7 +329,7 @@ The project aims to keep its implementation modular and understandable, with ind
 
 Privacy protections should be implemented against the actual Minecraft and Fabric 26.3 APIs rather than relying on assumptions from older Minecraft versions.
 
-References
+## References
 
 NoTrace's development is informed by existing Minecraft privacy and security research, including:
 
