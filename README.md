@@ -1,4 +1,4 @@
-<p align="center">
+no <p align="center">
   <img src="https://github.com/duckycashy/assets/icon" alt="NoTrace" width="15%"/>
 </p>
 
@@ -183,9 +183,10 @@ Modded clients may expose additional keybind translation keys.
 
 For example:
 
-```text
+```java
 key.meteor-client.open-gui
 key.meteor-client.open-commands
+```
 
 A server can probe these keys and observe how the client resolves them.
 
