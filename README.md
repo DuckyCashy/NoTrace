@@ -303,6 +303,7 @@ Prerequisites
 
 Clone the repository
 
+```
 git clone https://github.com/duckycashy/NoTrace.git
 cd NoTrace
 
@@ -315,6 +316,7 @@ Windows:
 Linux/macOS:
 
 ./gradlew build
+```
 
 The compiled JAR will be available in:
 
